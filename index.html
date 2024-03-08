@@ -1,303 +1,153 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="csrf-token"
-      content="BggSHBOxMuQEhUou9sfRXI8ZRP5NotYX1S7wK7wU"
-    />
-    <meta name="robots" content="noindex" />
-    <link rel="stylesheet" href="/packages/cvo/base/reset.css?v=2.1.0" />
-    <link rel="stylesheet" href="/packages/cvo/base/style.css?v=2.6" />
-    <link rel="stylesheet" href="/packages/cvo/base/print.css?v=2.1.0" />
-    <link
-      rel="stylesheet"
-      href="https://www.topcv.vn/v4/css/components/desktop/cv-new/app.min.css?id=bd40fb1c02d8f38ffbe4"
-    />
-    <link
-      rel="stylesheet"
-      href="https://www.topcv.vn/v4/css/cv-new/save-done.css?id=83e7a852733e4d365b22"
-    />
-    <link
-      rel="stylesheet"
-      href="https://www.topcv.vn/cv-new/css/cv-apply-viewer.css?v=2.1.6"
-    />
-    <link
-      id="cv-scheme-css"
-      rel="stylesheet"
-      href="https://www.topcv.vn/packages/cvo/templates//pro_5/colors/568a3c.css?v=2.4.0"
-    />
-    <link
-      id="cv-font"
-      rel="stylesheet"
-      href="https://www.topcv.vn/packages/cvo/templates//pro_5/fonts/roboto.css?v=2.1.1"
-    />
-    <link
-      id="cv-font-size-css"
-      rel="stylesheet"
-      href="https://www.topcv.vn/packages/cvo/templates//pro_5/font-sizes/font_normal.css?v=2.1.1"
-    />
-    <link
-      id="cv-spacing-css"
-      rel="stylesheet"
-      href="https://www.topcv.vn/packages/cvo/templates//pro_5/spacing/spacing_normal.css?v=2.1.1"
-    />
-    <link rel="stylesheet" href="https://www.topcv.vn/v2/bootstrap/css/bootstrap.min.css?v=1.1.1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" integrity="sha512-77kidyGDJGWWmJ0MVO0CRp+6nRgZRK67frUVBRvnL1zCcmcw9FkCQxpDHq52SebW+KWTAnnuX0Qk2/MQWogWoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body id="cv-viewer" class="iframe">
-    <div id="cv-layout-viewer">
-      <div id="cvo-document-root">
-        <div id="cvo-document" class="cvo-document">
-          <div class="cvo-page">
-            <div class="cvo-subpage">
-              <div id="cvo-body">
-              <div id="cvo-main">
-              <div id="col-left">
-                <div id="group-top-left">
-                  <div id="cvo-profile" class="cvo-block">
-                    <div id="profile-title-wrapper">
-                      <div id="cvo-profile-avatar-wraper">
-                        <img id="cvo-profile-avatar" src="f73e7b339a9858c60189.jpg" value="preview_avatar" alt="avatar">
-                      </div>
-                      <div>
-                        <span id="cvo-profile-fullname">Lê Quang Bình</span><br>
-                        <span id="cvo-profile-title">Sinh Viên</span>
-                      </div>
-                    </div>
-                    <div id="profile-contact-wraper">
-                      <div class="cvo-block-title">
-                        <span><i class="fa fa-credit-card block-title-icon"></i></span><span id="cvo-profile-blocktitle" class="block-title-content">Thông tin liên hệ</span>
-                      </div>
-                      <div id="cvo-profile-dob-wraper">
-                        <i class="fa fa-calendar profile-icon"></i><span class="profile-content" id="cvo-profile-dob">02/04/1999</span>
-                      </div>
-                      <div id="cvo-profile-gender-wraper">
-                        <i class="fa fa-user profile-icon"></i><span id="cvo-profile-gender" class="profile-content">Nam</span>
-                      </div>
-                      <div id="cvo-profile-phone-wraper">
-                        <i class="fa fa-phone profile-icon"></i><span id="cvo-profile-gender" class="profile-content">0707196255</span>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.cdnfonts.com/css/elaine-sans" rel="stylesheet">
+<style>
+  .resume-header {
+    padding: 20px;
+  }
+  .resume-section {
+    margin-bottom: 20px;
+  }
+  .section-title {
+    padding: 10px;
+    font-weight: bold;
+  }
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .btext {
+    color: #04a08c!important;
+  }
+</style>
+</head>
+<body>
+<div class="container mt-5">
 
-                      </div>
-                      <div id="cvo-profile-email-wraper">
-                        <i class="fa fa-envelope-square profile-icon"></i><span id="cvo-profile-email" class="profile-content">sarakenny123@gmail.com</span>
-                      </div>
-                      <div id="cvo-profile-address-wraper">
-                        <i class="fa fa-location-arrow profile-icon"></i><span id="cvo-profile-gender" class="profile-content">24 Nguyễn Văn Cừ, P. Cầu Kho, Quận 1, TP. HCM</span>
-
-                      </div>
-                      
-                    </div>
-                    <div style="clear: both"></div>
-                  </div>
-                </div>
-
-                <div id="group-bottom-left">
-                  <div id="cvo-objective" class="cvo-block">
-                    <div class="cvo-block-title no-horizontal-line">
-                      <i class="fa fa-leaf block-title-icon"></i><span id="cvo-objective-blocktitle" class="block-title-content">Mục tiêu nghề nghiệp</span>
-                    </div>
-                    <div id="cvo-objective-objective">Tôi rất mong có thể giúp dù một phần nhỏ cho công ty của anh chị, dù chưa có nhiều kinh nghiệm thức tế, nhưng khi được vào tôi rất vui lòng được làm Fulltime để học hỏi thêm nhiều kinh nghiệm.</div>
-                  </div>
-                  <div id="cvo-interest" class="cvo-block">
-                    <div class="cvo-block-title">
-                      <i class="fa fa-bolt block-title-icon"></i><span id="cvo-interest-blocktitle" class="block-title-content">Kiến Thức</span>
-                    </div>
-                    <ul id="interest-table">
-                      <li class="row">
-                        <span class="cvo-interest-details">HTML/ CSS/ JS,PHP, Jquery, Angular</span>
-                      </li>
-                      <li class="row">
-                        <span class="cvo-interest-details">Version Control: Git Bash, Github</span>
-                      </li>
-<li class="row">
-                        <span class="cvo-interest-details">Có kiến thức về Spring/Spring MVC/Spring Boot, Java Servlet, JSP, Codeignter(PHP)</span>
-                      </li>
-<li class="row">
-                        <span class="cvo-interest-details">Websocket( đơn giản)</span>
-                      </li>
-                      <li class="row">
-                        <span class="cvo-interest-details">Database: MySQL</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div id="cvo-interest" class="cvo-block">
-                    <div class="cvo-block-title">
-                      <i class="fa fa-star block-title-icon"></i><span id="cvo-interest-blocktitle" class="block-title-content">Sở thích</span>
-                    </div>
-                    <ul id="interest-table">
-                      <li class="row">
-                        <span class="cvo-interest-details">Linux( Mint Distro), đặt biệt Cinamon và XFCE DE</span>
-                      </li>
-                      <li class="row">
-                        <span class="cvo-interest-details">Meme posting</span>
-                      </li>
-                    </ul>
-                  </div>
-                  
-                </div>
+  <div class="resume-header text-center">
+    <div class="row">
+      <div class="col-8 p-5 text-left">
+        <h2 class="btext font-weight-bold">Lê Quang Bình</h2>
+        <p class="btext">Lập trình viên Backend</p>
+          <div class="row">
+            <div class="col-auto ml-2">
+              <p><strong>Ngày sinh:</strong> 1999</p>
+              <p><strong>Giới tính:</strong> Nam</p>
+              <p><strong>Điện thoại:</strong> 0707196255</p>
+              <p><strong>Địa chỉ:</strong> Quận 1, TP. HCM</p>
+              <div class="d-inline">
+                <a target="_blank" href="https://github.com/BinDK" class="text-dark"><i class="fa-brands fa-github fa-xl"></i></a>
               </div>
-
-              <div id="col-right">
-              <div id="group-col-right">
-                <div id="cvo-education" class="cvo-block">
-                  <div class="cvo-block-title">
-                    <span><i class="fa fa-graduation-cap block-title-icon"></i></span><span id="cvo-education-blocktitle" class="block-title-content">Học vấn</span>
-                  </div>
-                  <div id="education-table">
-                    <div class="row">
-                      <div class="cvo-education-time">
-                        <span class="cvo-education-start">7/2017</span>
-                        <br><span><i class="fa fa-arrow-down"></i></span><br>
-                        <span class="cvo-education-end">03/2018</span>
-                      </div>
-                      <div class="cvo-education-wraper">
-                        
-                        <div>
-                          <span class="cvo-education-title">Tốt nghiệp THPT và bắt đàu học tại Cao Đẳng Aptech</span>
-                        </div>
-                        <div class="row-details">
-                          <div class="cvo-education-details">Bảo lưu lại việc học để tham gia <b>NVQS</b></div>
-                        </div>
-                      </div>
-                      <div style="clear: both"></div>
-                    </div>
-<div class="row">
-                      <div class="cvo-education-time">
-                        <span class="cvo-education-start">03/2020</span>
-                        <br><span><i class="fa fa-arrow-down"></i></span><br>
-                        <span class="cvo-education-end">08/2022</span>
-                      </div>
-                      <div class="cvo-education-wraper">
-                        <div class="cvo-education-school-wraper">
-                          <span class="cvo-education-school">Hoàn Tất NVQS, học bảo lưu lại Aptech</span>
-                        </div>
-                        
-                        <div class="row-details">
-                          <div class="cvo-education-details">Đã hoàn tất và đang đợi bằng tốt nghiệp</div>
-                        </div>
-                      </div>
-                      <div style="clear: both"></div>
-                    </div>
-                  </div>
-                </div>
-                <div id="cvo-experience" class="cvo-block">
-                  <div class="cvo-block-title">
-                    <span><i class="fa fa-briefcase block-title-icon"></i></span><span id="cvo-experience-blocktitle" class="block-title-content">Kinh nghiệm làm việc</span>
-                  </div>
-                  <div id="experience-table">
-                    <div class="row">
-                      <div class="cvo-experience-time">
-                        <span class="cvo-experience-start">07/2022</span>
-                        <br><span><i class="fa fa-arrow-down"></i></span><br>
-                        <span class="cvo-experience-end">08/2022</span>
-                      </div>
-                      <div class="cvo-experience-wraper">
-                        <div class="cvo-experience-company-wraper">
-                          <span class="cvo-experience-company">Gluehand Online Auction</span>
-                        </div>
-                        <div>
-                          <span class="cvo-experience-position">Spring Boot (Java), Websocket, HTML/CSS/JS, Spring API, MySQL</span>
-                        </div>
-                        <div class="row-details">
-                          <div class="cvo-experience-details">
-                            - Đảm nhận việc xử lý bussines cho người đăng sản phẩm + người đấu giá<br>- Xử lý việc đấu giá với Websocket
-<br> - Đồ án tốt nghiệp Aptech
-</div>
-                        </div>
-                      </div>
-                      <div style="clear: both"></div>
-                    </div>
-<div class="row">
-                      <div class="cvo-experience-time">
-                        <span class="cvo-experience-start">06/2021</span>
-                        <br><span><i class="fa fa-arrow-down"></i></span><br>
-                        <span class="cvo-experience-end">08/2021</span>
-                      </div>
-                      <div class="cvo-experience-wraper">
-                        <div class="cvo-experience-company-wraper">
-                          <span class="cvo-experience-company">Quản lý Dự Án Nhà Đất</span>
-                        </div>
-                        <div>
-                          <span class="cvo-experience-position">Codeiginter (PHP Framework), HTML/CSS/JS, JQery, MySQL</span>
-                        </div>
-                        <div class="row-details">
-                          <div class="cvo-experience-details">
-                            - Hỗ trợ user(nhân viên đồng thời là admin theo yêu cầu của khách) quản lý được dự án -&gt; lô nền -&gt; công nợ của các lô nền<br>- Là dự án Freelance đầu tiên do được thầy giới thiệu.</div>
-                        </div>
-                      </div>
-                      <div style="clear: both"></div>
-                    </div>
-                    <div class="row">
-                      <div class="cvo-experience-time">
-                        <span class="cvo-experience-start">3/2021</span>
-                        <br><span><i class="fa fa-arrow-down"></i></span><br>
-                        <span class="cvo-experience-end">04/2021</span>
-                      </div>
-                      <div class="cvo-experience-wraper">
-                        <div class="cvo-experience-company-wraper">
-                          <span class="cvo-experience-company">Inventory Management <small>(1 vendor/ storage)</small></span>
-                        </div>
-                        <div>
-                          <span class="cvo-experience-position">Java Swing</span>
-                        </div>
-                        <div class="row-details">
-                          <div class="cvo-experience-details">
-                            - Đảm nhiệm làm các chức năng, giao diện cho các role(admin, manager, salemanager)<br>- Đồ án trường, đồ án đạt điều kiện cho nghành kinh doanh FMCG, <a href="https://aptechvietnam.com.vn/ung-dung-quan-ly-ton-kho" class="text-bold text-succes">báo trường</a> và <a href="https://www.facebook.com/aptechvietnam.com.vn/posts/pfbid02TJ7PgRya72YZHcfokHKi7THgQasyoyzJNpQMexyCDouza16ZMW52Zt7ragbEcStpl">FB</a></div>
-                        </div>
-                      </div>
-                      <div style="clear: both"></div>
-                    </div>
-                  </div>
-                  <div style="clear: both"></div>
-                </div>
-                
-                <div id="cvo-certification" class="cvo-block">
-                  <div class="cvo-block-title">
-                    <span><i class="fa fa-file-text-o block-title-icon"></i></span><span id="cvo-certification-blocktitle" class="block-title-content">Bằng Cắp, Chứng chỉ</span>
-                  </div>
-                  <div id="certification-table">
-                    <div class="row">
-                      <div class="cvo-certification-time-wraper">
-                        <span class="cvo-certification-time">2017</span>
-                      </div>
-                      <div class="cvo-certification-title-wraper">
-                        <span class="cvo-certification-title">Tốt Nghiệp Trung Học Phổ Thông</span>
-                      </div>
-                      <div style="clear: both"></div>
-                    </div>
-<div class="row">
-                      <div class="cvo-certification-time-wraper">
-                        <span class="cvo-certification-time">2022</span>
-                      </div>
-                      <div class="cvo-certification-title-wraper">
-                        <span class="cvo-certification-title">Đang Đợi Bằng Tốt Nghiệp Aptech</span>
-                      </div>
-                      <div style="clear: both"></div>
-                    </div>
-                  </div>
-                  <div style="clear: both"></div>
-                </div>
-                
-                <div class="cvo-block" id="cvo-additional-info">
-                  <div class="cvo-block-title">
-                    <span><i class="fa fa-pencil block-title-icon"></i></span><span id="cvo-additional-info-blocktitle" class="block-title-content">Thông tin thêm</span>
-                  </div>
-                  <div id="cvo-additional-information-details">
-                    Tôi có thể nghe và giao tiếp được bằng tiếng Anh ở mức trung bình - khá.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-              <div style="clear: both"></div>
-            </div>
-                <div style="clear: both"></div>
-              </div>
+              <a href="mailto:sarakenny123@gmail.com" class="text-dark"><i class="fa-regular fa-envelope fa-xl"></i></a>
             </div>
           </div>
+      </div>
+      <div class="col-4 ">
+        <div class="profile-image">
+          <img src="f73e7b339a9858c60189.jpg" class="img-fluid" style="max-height:100%; max-width:100%;" />
         </div>
       </div>
     </div>
-    <script src="https://www.topcv.vn/v2/js/jquery-1.11.2.min.js"></script>
-  </body>
+  </div>
+
+  <div class="row">
+    <div class="col-4 col-lg-4">
+      <!-- Start left col -->
+      <div class="resume-section">
+        <div class="section-title h5">
+          <i class="fas fa-rocket"></i>&nbsp;
+          Mục Tiêu Nghề Nghiệp
+        </div>
+        <div class="ml-4">
+          <ul>
+            <li>Mong muốn học hỏi kinh nghiệm & môi trường làm việc chuyên nghiệp, năng động.</li>
+            <li>Có cơ hội thăng tiến cao, thành công trong công việc.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="resume-section">
+        <div class="section-title h5">
+          <i class="fas fa-book"></i>&nbsp;
+          Học Vấn
+        </div>
+        <div class="ml-4">
+          <ul>
+            <li>2017: Tốt nghiệp THPT</li>
+            <li>2017 - 2018: Học được lập trình cơ bản ở Aptech và thực hiện NVQS</li>
+            <li>2020 - 2022: Học bảo lưu Aptech và tốt nghiệp</li>
+          </ul>
+        </div>
+      </div>
+      <!-- End left col -->
+    </div>
+
+    <div class="col-8 col-lg-8">
+      <!-- Start right col -->
+
+      <div class="resume-section">
+        <div class="section-title h5">
+          <i class="fas fa-briefcase"></i>&nbsp;
+          Kinh nghiệm
+        </div>
+        <div class="ml-4">
+          <ul>
+            <li><strong class="font-weight-bold h5">Công ty Momby - Ứng dụng dành cho ba mẹ bầu và ba mẹ bỉm</strong>
+              <ul>
+                <li>Làm trong khoảng thời gian: 02 / 2023 - 03 / 2024</li>
+                <li>Phụ trách mảng Backend:
+                  <ul>
+                    <li>Làm việc ngôn ngữ <strong>Ruby</strong> và dùng Framework <strong>Ruby on Rails</strong></li>
+                  </ul>
+                </li>
+                <li>Đã được học hỏi và trải nghiệm:
+                  <ul>
+                    <li>Kỹ năng mềm:
+                      <ul>
+                        <li>Chủ động về giờ giấc làm việc và hỏi các anh chị khi gặp khó khăn.</li>
+                        <li>Chủ động xin thêm task khi hết hoặc khi bị block/ đợi làm rõ requirement của task hiện tại.</li>
+                        <li>Chủ động take ownership các chức năng đã làm để hổ trợ admin setup hoặc bị bug.</li>
+                        <li>Lead Sprint meeting</li>
+                      </ul>
+                    </li>
+                    <li>Kỹ thuật:
+                      <ul>
+                        <li>Tuân thủ DRY, Ruby và Rails style guide vào các task được giao.</li>
+                        <li>Sử dụng tính đa hình vào các model trong ứng dụng để dễ dàng access các dữ liệu mà không cần thay đổi/ thêm bảng mới.</li>
+                        <li>Sử dụng sidekiq để thực hiện các job theo yêu cầu task</li>
+                        <li>Xây dựng RESTFul API vào các route để cho client dễ dàng access vào server của chúng tôi.</li>
+                        <li>Sử dụng JWT để  gửi request đến:
+                          <ul>
+                            <li>Apple App Store Server API xác thực thanh toán iAP User (task cuối).</li>
+                            <li>Google Play Developer Api xác thực thanh toán iAP User (task cuối).</li>
+                          </ul>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- End right col -->
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
