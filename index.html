@@ -1,214 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Resume</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<link href="https://fonts.cdnfonts.com/css/elaine-sans" rel="stylesheet">
-<style>
-  .resume-header {
-    padding: 20px;
-  }
-  .resume-section {
-    margin-bottom: 20px;
-  }
-  .section-title {
-    padding: 10px;
-    font-weight: bold;
-  }
-  .profile-image {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4em;
-    color: white;
-    margin-bottom: 20px;
-  }
-  .btext {
-    color: #04a08c!important;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Lê Quang Bình</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-<div class="container mt-5">
 
-  <div class="resume-header text-center">
-    <div class="row">
-      <div class="col-8 p-5 text-left">
-        <h2 class="btext font-weight-bold">Lê Quang Bình</h2>
-        <p class="btext">Lập trình viên Backend</p>
-          <div class="row">
-            <div class="col-auto ml-2">
-              <p><strong>Ngày sinh:</strong> 1999</p>
-              <p><strong>Giới tính:</strong> Nam</p>
-              <p><strong>Điện thoại:</strong> 0707196255</p>
-              <p><strong>Địa chỉ:</strong> Quận 1, TP. HCM</p>
-              <div class="d-inline">
-                <a target="_blank" href="https://github.com/BinDK" class="text-dark"><i class="fa-brands fa-github fa-xl"></i></a>
-              </div>
-              <a href="mailto:sarakenny123@gmail.com" class="text-dark"><i class="fa-regular fa-envelope fa-xl"></i></a>
-            </div>
-          </div>
-      </div>
-      <div class="col-4 ">
-        <div class="profile-image">
-          <img src="f73e7b339a9858c60189.jpg" class="img-fluid" style="max-height:100%; max-width:100%;" />
+<body class="bg-gray-100 font-sans">
+  <div class="max-w-3xl mx-auto py-8">
+    <div class="bg-white rounded-lg shadow-lg p-6">
+      <div class="flex items-center"> <img src="f73e7b339a9858c60189.jpg" alt="Ảnh đại diện"
+          class="rounded-full h-44 w-44 mr-6">
+        <div>
+          <h1 class="text-3xl font-bold mb-2">Lê Quang Bình</h1>
+          <p class="text-lg mb-1">Backend Developer</p>
+          <p class="mb-1"><span class="font-semibold">Điện thoại:</span> 070719255 | <span class="font-semibold">Giới
+              tính:</span> Nam</p>
+          <p class="mb-1"><span class="font-semibold">Ngày sinh:</span> 02/04/1999</p>
+          <p class="mb-1"><span class="font-semibold">Email:</span> <a href="mailto:sarakenny123@gmail.com"
+              class="text-blue-500 hover:text-blue-700">sarakenny123@gmail.com</a></p>
+          <p class="mb-1"><span class="font-semibold">GitHub:</span> <a href="https://github.com/BinDK"
+              class="text-blue-500 hover:text-blue-700">https://github.com/BinDK</a></p>
+          <p class="mb-1"><span class="font-semibold">Địa chỉ:</span> Quận 1, TP. Hồ Chí Minh</p>
         </div>
+      </div>
+      <div class="mt-6">
+        <h2 class="text-2xl font-bold mb-2">Mục tiêu nghề nghiệp</h2>
+        <p class="mb-4">Với hơn 1 năm kinh nghiệm làm việc với Ruby on Rails, tôi mong rằng với các kỹ năng và kinh
+          nghiệm có thể cống hiến được cho công ty dù là 1 phần nhỏ và cũng mong rằng sẽ được gia nhập công ty để có cơ
+          hội phát triển kỹ năng của mình hơn.</p>
+        <h2 class="text-2xl font-bold mb-2">Học vấn</h2>
+        <p class="mb-4">APTECH APPROTRAIN 2020 - 2022, CNTT / Lập trình Ứng Dụng</p>
+        <h2 class="text-2xl font-bold mb-2">Kinh nghiệm làm việc</h2>
+        <div class="mb-4">
+          <h3 class="text-xl font-semibold">MOMBY - ỨNG DỤNG CHĂM SÓC MẸ BẦU - MẸ BÍM SỮA</h3>
+          <p class="mb-1"><span class="font-semibold">Vai trò:</span> Backend Developer</p>
+          <p class="mb-1"><span class="font-semibold">Thời gian:</span> 2023 - 2024</p>
+          <ul class="list-disc list-inside">
+            <li>Sử dụng framework Ruby on Rails và PostgreSQL làm database</li>
+            <li>Được học hỏi và có kinh nghiệm các công nghệ như: ngrok, sidekiq, Apple iAP, Google iAP,...</li>
+            <li>Ngoài ra có thêm kiến thức về Github Action</li>
+            <li>Áp dụng Ruby/ Rails styles guide vào các task được giao</li>
+            <li>Sử dụng tính đa hình vào các model trong project để dễ dàng access các dữ liệu mà không cần thay đổi/
+              thêm bảng mới</li>
+            <li>Xây dựng RESTFul API</li>
+          </ul>
+        </div>
+        <h2 class="text-2xl font-bold mb-2">Hoạt động/ Dự án ngoài</h2>
+        <div class="mb-4">
+          <h3 class="text-xl font-semibold">DỰ ÁN QUẢN LÝ CÔNG NỢ, LÔ NỀN</h3>
+          <p class="mb-1"><span class="font-semibold">Vai trò:</span> Fullstack (Freelance)</p>
+          <p class="mb-1"><span class="font-semibold">Thời gian:</span> 2021 - 2021</p>
+          <ul class="list-disc list-inside">
+            <li>Sử dụng ngôn ngữ PHP và framework CodeIgniter để thực hoàn thiện FE và BE. Database sử dụng MySQL</li>
+            <li>Project hiện đã được bàn giao cho khách, project admin</li>
+            <ul class="list-disc list-inside ml-4">
+              <li>Giúp quản lý nhiều dự án và nhiều lô nền</li>
+              <li>Giúp admin tracking được ngày tháng mà KH đã trả góp cho dự án đó</li>
+            </ul>
+          </ul>
+        </div>
+        <h2 class="text-2xl font-bold mb-2">Sở thích</h2>
+        <ul class="list-disc list-inside mb-4">
+          <li>Bóng rổ, nghe nhạc (pre 2010)</li>
+          <li>Distro hopping</li>
+        </ul>
+        <h2 class="text-2xl font-bold mb-2">Các kỹ năng</h2>
+        <ul class="list-disc list-inside mb-4">
+          <li><span class="font-semibold">HTML/CSS/JS:</span> Nắm bắt rõ về 3 ngôn này</li>
+          <li><span class="font-semibold">Ruby &amp; Ruby on Rails:</span> Do nhu cầu làm việc ở Momby dùng Rails 6 nên
+            vẫn đang học thêm các chức năng mới ở Rails 7</li>
+          <li><span class="font-semibold">NodeJS và các FE framework:</span> Tôi có ít kinh nghiệm về các framework này
+            (Vue, ReactJS, Angular,...) nhưng tôi có thể học hỏi nhanh chống các framework này</li>
+          <li><span class="font-semibold">CI/CD:</span> Tôi đã có vài kinh nghiệm với Github Action. Ngoài ra tôi vẫn
+            mong muốn có thể được trao dòi thêm kiến thức từ các platform khác</li>
+          <li><span class="font-semibold">PaaS:</span> Tôi có ít kiến thức về Heroku và Dokku</li>
+        </ul>
       </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-4 col-lg-4">
-      <!-- Start left col -->
-      <div class="resume-section">
-        <div class="section-title h5">
-          <i class="fas fa-rocket"></i>&nbsp;
-          Mục Tiêu Nghề Nghiệp
-        </div>
-        <div class="ml-4">
-          <ul>
-            <li>Mong muốn học hỏi kinh nghiệm & môi trường làm việc chuyên nghiệp, năng động.</li>
-            <li>Có cơ hội thăng tiến cao, thành công trong công việc.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="resume-section">
-        <div class="section-title h5">
-          <i class="fas fa-book"></i>&nbsp;
-          Học Vấn
-        </div>
-        <div class="ml-4">
-          <ul>
-            <li>2017: Tốt nghiệp THPT</li>
-            <li>2017 - 2018: Học được lập trình cơ bản ở Aptech và thực hiện NVQS</li>
-            <li>2020 - 2022: Học bảo lưu Aptech và tốt nghiệp</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="resume-section">
-        <div class="section-title h5">
-          <i class="fas fa-bolt"></i>&nbsp;
-          Kiến Thức
-        </div>
-        <div class="ml-4">
-          <ul>
-            <li>HTML/ CSS/ JS và JQuery </li>
-            <li>Ngôn ngữ ưa thích: Ruby(Ruby on Rails) và PHP (Codeigniter)</li>
-          </ul>
-        </div>
-      </div>
-      <!-- End left col -->
-    </div>
-
-    <div class="col-8 col-lg-8">
-      <!-- Start right col -->
-
-      <div class="resume-section">
-        <div class="section-title h5">
-          <i class="fas fa-briefcase"></i>&nbsp;
-          Kinh nghiệm
-        </div>
-
-        <div class="section-title h5 pl-5">
-          <i class="fa-solid fa-school"></i>&nbsp;
-            Đồ án Trường:
-            <div class="ml-4 font-weight-normal">
-              <ul>
-                <li><strong class="font-weight-bold h5">INVENTORY MANAGEMENT (1 VENDOR/STORAGE)</strong>
-                  <ul>
-                    <li>Làm trong khoảng thời gian: 03 / 2021 - 04 / 2021</li>
-                    <li>Thực hiện bởi <strong>Java Swing</strong> và dùng database <strong>MySQL</strong></li>
-                    <li>Đảm nhiệm làm các chức năng, giao diện cho các role(admin, manager, salemanager)</li>
-                    <li>Đồ án trường, đồ án đạt điều kiện cho nghành kinh doanh FMCG, <a href="https://aptechvietnam.com.vn/san-pham-hoc-vien/ung-dung-qly-hang-ton/" target="_blank">báo trường</a> và <a href="https://www.facebook.com/aptechvietnam.com.vn/posts/pfbid02TJ7PgRya72YZHcfokHKi7THgQasyoyzJNpQMexyCDouza16ZMW52Zt7ragbEcStpl" target="_blank">FB</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-
-            <div class="ml-4 font-weight-normal">
-              <ul>
-                <li><strong class="font-weight-bold h5">GLUEHAND ONLINE AUCTION - Đấu giá online (Đồ án tốt nghiệp)</strong>
-                  <ul>
-                    <li>Làm trong khoảng thời gian: 07 / 2022 - 08 / 2022</li>
-                    <li>Thực hiện bởi <strong>Java ( Spring Boot )</strong> và dùng database <strong>MySQL</strong></li>
-                    <li>Đảm nhận việc xử lý bussines cho người đăng sản phẩm + người đấu giá</li>
-                    <li>Đồng thời đảm nhận việc xử lý đấu giá với Websocket</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-        </div>
-
-        <div class="section-title h5 pl-5">
-          <i class="fa-solid fa-handshake"></i>&nbsp;
-            Dự án freelance:
-            <div class="ml-4 font-weight-normal">
-              <ul>
-                <li><strong class="font-weight-bold h5">Quản lý dự án nhà đất</strong>
-                  <ul>
-                    <li>Làm trong khoảng thời gian: 07 / 2021 - 09 / 2021</li>
-                    <li>Thực hiện bởi <strong>PHP</strong>, sử dụng framework <strong>CodeIgniter</strong> và dùng database <strong>MySQL</strong>. Với giao diện sử dụng HTML/CSS/JS và JQuery</li>
-                    <li>Đảm nhiệm làm các chức năng hỗ trợ admin quản lý được dự án -> lô nền -> công nợ của các lô nền</li>
-                    <li>Đồ án trường, đồ án đạt điều kiện cho nghành kinh doanh FMCG, <a href="https://aptechvietnam.com.vn/san-pham-hoc-vien/ung-dung-qly-hang-ton/" target="_blank">báo trường</a> và <a href="https://www.facebook.com/aptechvietnam.com.vn/posts/pfbid02TJ7PgRya72YZHcfokHKi7THgQasyoyzJNpQMexyCDouza16ZMW52Zt7ragbEcStpl" target="_blank">FB</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-        </div>
-
-        <div class="ml-4">
-          <ul>
-            <li><strong class="font-weight-bold h5">Công ty Momby - Ứng dụng dành cho ba mẹ bầu và ba mẹ bỉm</strong>
-              <ul>
-                <li>Làm trong khoảng thời gian: 02 / 2023 - 03 / 2024</li>
-                <li>Phụ trách mảng Backend:
-                  <ul>
-                    <li>Làm việc ngôn ngữ <strong>Ruby</strong> và dùng Framework <strong>Ruby on Rails</strong></li>
-                  </ul>
-                </li>
-                <li>Đã được học hỏi và trải nghiệm:
-                  <ul>
-                    <li>Kỹ năng mềm:
-                      <ul>
-                        <li>Chủ động về giờ giấc làm việc và hỏi các anh chị khi gặp khó khăn.</li>
-                        <li>Chủ động xin thêm task khi hết hoặc khi bị block/ đợi làm rõ requirement của task hiện tại.</li>
-                        <li>Chủ động take ownership các chức năng đã làm để hổ trợ admin setup hoặc bị bug.</li>
-                        <li>Lead Sprint meeting</li>
-                      </ul>
-                    </li>
-                    <li>Kỹ thuật:
-                      <ul>
-                        <li>Tuân thủ DRY, Ruby và Rails style guide vào các task được giao.</li>
-                        <li>Sử dụng tính đa hình vào các model trong ứng dụng để dễ dàng access các dữ liệu mà không cần thay đổi/ thêm bảng mới.</li>
-                        <li>Sử dụng sidekiq để thực hiện các job theo yêu cầu task</li>
-                        <li>Xây dựng RESTFul API vào các route để cho client dễ dàng access vào server của chúng tôi.</li>
-                        <li>Sử dụng JWT để  gửi request đến:
-                          <ul>
-                            <li>Apple App Store Server API xác thực thanh toán iAP User (task cuối).</li>
-                            <li>Google Play Developer Api xác thực thanh toán iAP User (task cuối).</li>
-                          </ul>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- End right col -->
-    </div>
-  </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
